@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import math
 
 # Import image
-x = cv2.imread("/Users/joe1/Documents/University/Third Year/Dissertation/Collected Data/ESP/DAY 1 TUE/Photos/photo_32.jpg")
+x = cv2.imread("Photo_File_Path")
 img = cv2.cvtColor(x, cv2.COLOR_BGR2RGB)
 original = cv2.cvtColor(x, cv2.COLOR_BGR2RGB)
 

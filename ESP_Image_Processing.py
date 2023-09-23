@@ -45,7 +45,7 @@ hough1 = img.copy()
 hough2 = img.copy()
 height, width, channels = img.shape
 
-#lines = cv2.HoughLinesP(sobel,1,np.pi/180,100,np.array([]),minLineLength=300,maxLineGap=10) j
+#lines = cv2.HoughLinesP(sobel,1,np.pi/180,100,np.array([]),minLineLength=300,maxLineGap=10) j2
 lx1 = []
 lx2 = []
 ly1 = []
